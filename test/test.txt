@@ -1,1 +1,50 @@
-test
+import keyword
+print(keyword.kwlist)
+print()
+
+print()
+a = "apple"
+b=123
+c="123abc"
+print(b, " ", c)
+print(a, b, c)
+print()
+print(id(a))
+print(id(b))
+print(id(c))
+# Reassigned variable a
+
+
+
+
+# Program to generate a random number between 0 and 9
+
+# importing the random module
+import random
+name_string = input("Enter the name of the person :  ")
+weight_kg = float(input("input person's weight :  "))
+height_m = float(input("input person's height :  "))
+
+bmi= weight_kg / height_m ** 2
+print(" bmi: ")
+print(bmi)
+print()
+if bmi>25:
+    print(name_string, "is overweight")
+else:
+    print(name_string, "is not overweight")
+
+
+
+
+print(random.randint(0, 100))
+
+num: int = int(input(" Enter the number above ."))
+
+a = num
+
+if a % 2 == 0:
+    print("{0} is Even".format(a))
+else:
+    print("{0} is Odd".format(a))
+    print("hello")
